@@ -8,7 +8,7 @@ import io_dbs as io
 import numpy as np
 import pandas as pd
 
-from preprocess import *
+from process import *
 
 try:
     import cPickle as pickle 

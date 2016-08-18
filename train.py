@@ -5,7 +5,7 @@ sys.path.append('./bundle/')
 
 import numpy as np
 import io_dbs as io
-from preprocess import *
+from process import *
 from sklearn.svm import SVC
 from sklearn.grid_search import GridSearchCV
 
