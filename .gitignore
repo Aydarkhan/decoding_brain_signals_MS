@@ -1,0 +1,25 @@
+#Python
+*.py[cd]
+*.npy
+
+#Models
+*.zip
+*.pkl
+
+# Latex
+*.log
+*.aux
+*.swp
+*.pdf
+*.nav
+*.out
+*.snm
+*.toc
+
+# Pictures
+*.eps
+
+# Data
+*.arr
+
+
