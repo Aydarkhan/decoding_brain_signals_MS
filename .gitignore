@@ -6,20 +6,5 @@
 *.zip
 *.pkl
 
-# Latex
-*.log
-*.aux
-*.swp
-*.pdf
-*.nav
-*.out
-*.snm
-*.toc
-
-# Pictures
-*.eps
-
-# Data
-*.arr
 
 
