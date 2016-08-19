@@ -27,15 +27,14 @@ def load_classifiers(fname='ga.pkl'):
 def azureml_main(dataframe1 = None, dataframe2 = None):
     pdata, pids, plabels = io.extract_data(dataframe1)
     cls = [
-        'riemannERP_norm.pkl',
+        'norm_riemannERP.pkl',
         'riemannXdawn.pkl',
-        'riemannXdawn_time_featsel_norm.pkl',
-        'time_erbb_norm.pkl',
-        'time_featsel_riemannERP_norm.pkl',
-        'time_bands_norm.pkl',
-        'erbb_time_bands_norm.pkl',
-        'riemannXdawn_erbb_time_bands_featsel_riemannERP_norm.pkl'
-
+        'featsel_norm_riemannXdawn_time.pkl',
+        'erbb_norm_time.pkl',
+        'featsel_norm_riemannERP_time.pkl',
+        'bands_norm_time.pkl',
+        'bands_erbb_norm_time.pkl',
+        'bands_erbb_featsel_norm_riemannERP_riemannXdawn_time.pkl',
         ]
 
     scn = 'stacked.pkl'

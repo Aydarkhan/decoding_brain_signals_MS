@@ -58,7 +58,7 @@ def save_classifiers(pdata, plabels, pen, params, fname=None, protocol=pickle.HI
     print "\n*** Build classifiers ***\n"
     mc = {}
     if not fname:
-        fname = '_'.join([k for k, v in params.iteritems() if v]) + '.pkl'
+        fname = '_'.join([k for k, v in sorted(params.iteritems()) if v]) + '.pkl'
 
     print "Classifier name: %s\n" % (fname)
 
