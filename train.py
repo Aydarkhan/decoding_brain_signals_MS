@@ -127,8 +127,8 @@ def save_stacked(pdata, plabels, sfname='stacked.pkl', protocol=pickle.HIGHEST_P
 
         predsf = np.concatenate(predsf, axis=0) #.astype(np.float32)
         sclab = np.concatenate(sclab) #.astype(np.float32)
-        np.save(p + '_d.npy', predsf)
-        np.save(p + '_l.npy', sclab)
+        #np.save(p + '_d.npy', predsf)
+        #np.save(p + '_l.npy', sclab)
 
         #predsf = np.load(p + '_d.npy')
         #sclab = np.load(p + '_l.npy')
