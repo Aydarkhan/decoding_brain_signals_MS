@@ -168,33 +168,33 @@ if __name__ == '__main__':
 
     ### Save different models, selected with cross-validation
 
-    #params = dict(time=True, erbb=False, riemannERP=True, riemannXdawn=False, norm=True, featsel=True)
-    #save_classifiers(pdata, plabels, pen, params, fname=None)
+    params = dict(time=True, erbb=False, riemannERP=True, riemannXdawn=False, norm=True, featsel=True)
+    save_classifiers(pdata, plabels, pen, params, fname=None)
 
 
-    #pen_tmp = {'p1': 0.1, 'p2': 0.1, 'p3': 0.3, 'p4':0.3} # TIME ERBB norm
-    #params = dict(time=True, erbb=True, riemannERP=False, riemannXdawn=False, norm=True, featsel=False)
-    #save_classifiers(pdata, plabels, pen_tmp, params, fname=None)
+    pen_tmp = {'p1': 0.1, 'p2': 0.1, 'p3': 0.3, 'p4':0.3} # TIME ERBB norm
+    params = dict(time=True, erbb=True, riemannERP=False, riemannXdawn=False, norm=True, featsel=False)
+    save_classifiers(pdata, plabels, pen_tmp, params, fname=None)
 
-    #params = dict(time=False, erbb=False, riemannERP=True, riemannXdawn=False, norm=True, featsel=False)
-    #save_classifiers(pdata, plabels, pen, params, fname=None)
+    params = dict(time=False, erbb=False, riemannERP=True, riemannXdawn=False, norm=True, featsel=False)
+    save_classifiers(pdata, plabels, pen, params, fname=None)
 
-    #pen_tmp = {'p1': 3, 'p2': 2000, 'p3': 1000, 'p4':1} #Riemann Xdawn
-    #params = dict(time=True, erbb=False, riemannERP=False, riemannXdawn=True, norm=True, featsel=True)
-    #save_classifiers(pdata, plabels, pen_tmp, params, fname=None)
+    pen_tmp = {'p1': 3, 'p2': 2000, 'p3': 1000, 'p4':1} #Riemann Xdawn
+    params = dict(time=True, erbb=False, riemannERP=False, riemannXdawn=True, norm=True, featsel=True)
+    save_classifiers(pdata, plabels, pen_tmp, params, fname=None)
 
-    #params = dict(time=True, erbb=False, riemannERP=False, riemannXdawn=False, norm=True, featsel=False, bands=True)
-    #save_classifiers(pdata, plabels, pen, params, fname=None)
+    params = dict(time=True, erbb=False, riemannERP=False, riemannXdawn=False, norm=True, featsel=False, bands=True)
+    save_classifiers(pdata, plabels, pen, params, fname=None)
 
-    #params = dict(time=True, erbb=True, riemannERP=False, riemannXdawn=False, norm=True, featsel=False, bands=True)
-    #save_classifiers(pdata, plabels, pen, params, fname=None)
+    params = dict(time=True, erbb=True, riemannERP=False, riemannXdawn=False, norm=True, featsel=False, bands=True)
+    save_classifiers(pdata, plabels, pen, params, fname=None)
 
-    #params = dict(time=True, erbb=True, riemannERP=True, riemannXdawn=True, norm=True, featsel=True, bands=True)
-    #save_classifiers(pdata, plabels, pen, params, fname=None)
+    params = dict(time=True, erbb=True, riemannERP=True, riemannXdawn=True, norm=True, featsel=True, bands=True)
+    save_classifiers(pdata, plabels, pen, params, fname=None)
 
-    #params = dict(time=False, erbb=False, riemannERP=False, riemannXdawn=True, norm=False, featsel=False)
-    #save_classifiers(pdata, plabels, pen, params, fname=None)
+    params = dict(time=False, erbb=False, riemannERP=False, riemannXdawn=True, norm=False, featsel=False)
+    save_classifiers(pdata, plabels, pen, params, fname=None)
 
     ### Save stacked model
-    #save_stacked(pdata, plabels, sfname='stacked.pkl')
+    save_stacked(pdata, plabels, sfname='stacked.pkl')
 
